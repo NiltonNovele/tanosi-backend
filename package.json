@@ -1,3 +1,4 @@
+
 {
   "name": "tanosi-backend",
   "version": "2.0.0",
@@ -7,7 +8,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node --dns-result-order=ipv4first server.js",
-    "dev": "nodemon --dns-result-order=ipv4first server.js"
+    "dev": "nodemon --node-options=--dns-result-order=ipv4first server.js"
   },
   "engines": {
     "node": ">=20"
